@@ -1,0 +1,22 @@
+# Ambiente Virtual
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Dados Pesados (Não subir o CSV de 400MB!)
+data/*.csv
+data/*.zip
+
+# Arquivos Gerados (O n8n vai gerar novos sempre)
+data/insights_input.json
+data/*.pdf
+
+# Segurança e Chaves (NUNCA mande isso para o GitHub)
+.env
+kaggle.json
+.n8n/
+
+# Pastas de Sistema/IDE
+.vscode/
+.DS_Store
