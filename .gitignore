@@ -10,6 +10,8 @@ data/*.zip
 
 # Arquivos Gerados (O n8n vai gerar novos sempre)
 data/insights_input.json
+data/prompt_openai.txt
+data/relatorio_ia.md
 data/*.pdf
 
 # Segurança e Chaves (NUNCA mande isso para o GitHub)
